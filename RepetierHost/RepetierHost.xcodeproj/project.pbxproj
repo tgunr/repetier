@@ -55,8 +55,6 @@
 		FD2B1DDA162C749F00E6E335 /* file16.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2B1DD8162C749F00E6E335 /* file16.png */; };
 		FD2B1DDB162C749F00E6E335 /* folder16.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2B1DD9162C749F00E6E335 /* folder16.png */; };
 		FD2DD06E164ACFB9005B398E /* parallelmode.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2DD06D164ACFB9005B398E /* parallelmode.png */; };
-		FD46CB4D15E00116003087FD /* pypy.app in Resources */ = {isa = PBXBuildFile; fileRef = FD46CB4B15E00116003087FD /* pypy.app */; };
-		FD46CB4E15E00116003087FD /* Skeinforge.app in Resources */ = {isa = PBXBuildFile; fileRef = FD46CB4C15E00116003087FD /* Skeinforge.app */; };
 		FD57C17516174B24000C4A45 /* printer.png in Resources */ = {isa = PBXBuildFile; fileRef = FD57C17416174B24000C4A45 /* printer.png */; };
 		FD67BF4D149A6C95001B124B /* STL.m in Sources */ = {isa = PBXBuildFile; fileRef = FD67BF4C149A6C95001B124B /* STL.m */; };
 		FD67BF51149A715C001B124B /* ThreeDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD67BF50149A715C001B124B /* ThreeDModel.m */; };
@@ -229,8 +227,6 @@
 		FD2B1DD8162C749F00E6E335 /* file16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file16.png; sourceTree = "<group>"; };
 		FD2B1DD9162C749F00E6E335 /* folder16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder16.png; sourceTree = "<group>"; };
 		FD2DD06D164ACFB9005B398E /* parallelmode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parallelmode.png; sourceTree = "<group>"; };
-		FD46CB4B15E00116003087FD /* pypy.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = pypy.app; sourceTree = "<group>"; };
-		FD46CB4C15E00116003087FD /* Skeinforge.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = Skeinforge.app; sourceTree = "<group>"; };
 		FD57C17416174B24000C4A45 /* printer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = printer.png; sourceTree = "<group>"; };
 		FD67BF4B149A6C95001B124B /* STL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STL.h; sourceTree = "<group>"; };
 		FD67BF4C149A6C95001B124B /* STL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STL.m; sourceTree = "<group>"; };
@@ -496,7 +492,6 @@
 				FDEDF7D2148A16EB00E6CFF1 /* images */,
 				FDEDF7CE148A0EA500E6CFF1 /* controller */,
 				FDEDF7CD148A0DF900E6CFF1 /* models */,
-				FDEDF7CC148A0DCF00E6CFF1 /* protocols */,
 				FDEDF7C71489620900E6CFF1 /* windows */,
 				FDEDF7BA148961D800E6CFF1 /* RHAppDelegate.h */,
 				FDEDF7BB148961D800E6CFF1 /* RHAppDelegate.m */,
@@ -510,8 +505,6 @@
 			isa = PBXGroup;
 			children = (
 				FDF035B615E8CDE400B5C5A3 /* dsa_pub.pem */,
-				FD46CB4B15E00116003087FD /* pypy.app */,
-				FD46CB4C15E00116003087FD /* Skeinforge.app */,
 				FD92676014D9A54C005B31FF /* Slic3r.app */,
 				FD67BF6014A5CFFC001B124B /* empty.txt */,
 				FD67BF6214A5CFFD001B124B /* syntax.xml */,
@@ -543,13 +536,6 @@
 				FD9447B715D8230700AFE7F1 /* Slicer.xib */,
 			);
 			path = windows;
-			sourceTree = "<group>";
-		};
-		FDEDF7CC148A0DCF00E6CFF1 /* protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = protocols;
 			sourceTree = "<group>";
 		};
 		FDEDF7CD148A0DF900E6CFF1 /* models */ = {
@@ -851,8 +837,6 @@
 				FD01F4B115BBDE8600754A5F /* mount.png in Resources */,
 				FD01F4B215BBDE8600754A5F /* unmount.png in Resources */,
 				FD9447B815D8230700AFE7F1 /* Slicer.xib in Resources */,
-				FD46CB4D15E00116003087FD /* pypy.app in Resources */,
-				FD46CB4E15E00116003087FD /* Skeinforge.app in Resources */,
 				FDF035B715E8CDE400B5C5A3 /* dsa_pub.pem in Resources */,
 				FD57C17516174B24000C4A45 /* printer.png in Resources */,
 				FD2B1DD2162C683500E6E335 /* folder.png in Resources */,
